@@ -1,0 +1,522 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>無題ドキュメント</title>
+</head>
+
+<body>
+<h1>中小企業等担当者向けテレワークセキュリティの手引き（チェックリスト）第２版【抜粋】</h1>
+<h2>セキュリティ対策と想定脅威一覧
+</h2><table border="1" cellspacing="0" cellpadding="0" width="772">
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center"><strong>No.</strong><strong> </strong></p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p><strong>分類</strong><strong> </strong></p></td>
+    <td width="227" valign="top"><p>&nbsp;</p>
+      <p align="center"><strong>対策内容</strong><strong> </strong></p></td>
+    <td width="64" valign="top"><p><strong>想定脅威</strong><strong> </strong><br>
+      <strong>（概要）</strong><strong> </strong></p></td>
+    <td width="302" valign="top"><p>&nbsp;</p>
+      <p align="center"><strong>想定脅威（詳細）</strong><strong> </strong></p></td>
+    <td width="23" valign="top"><p><strong>優先度</strong><strong> </strong></p></td>
+    <td width="76" valign="top"><p>&nbsp;</p>
+      <p align="center"><strong>備考</strong><strong> </strong></p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="center">1-1</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>資産・構成管理</p></td>
+    <td width="227" valign="top"><p>&nbsp;</p>
+      <p>許可したテレワーク端末のみがテレワークに利用されており、利用されるテレワーク端末とその利用者を把握している。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>マルウェア感染 <br>
+        不正アクセス盗難・紛失 </p></td>
+    <td width="302" valign="top"><p>情報資産の管理そのものが直接的な対策になるわけではなく、その他の対策を実施する際の前提となる対策。 <br>
+      テレワークで利用している機器とその利用者を把握できていない場合、機器に対する各種セキュリティ対策が未実施の端末が存在するリスクが増加する。 <br>
+      また、シリアルナンバー等の端末固有の情報を把握していない場合、端末の盗難や紛失時にその実態を把握することが困難であるなどのリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="right">◎</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="center">1-2</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>資産・構成管理</p></td>
+    <td width="227" valign="top"><p>&nbsp;</p>
+      <p>テレワークで利用しているシステムや取り扱う重要情報※1を把握している。 <br>
+        ※1 営業秘密等の事業に必要で組織にとって価値のある情報や、顧客や従業員の個人情報等の管理責任を伴う情報 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>不正アクセス情報の盗聴 </p></td>
+    <td width="302" valign="top"><p>情報資産の管理そのものが直接的な対策になるわけではなく、その他の対策を実施する際の前提となる対策。 <br>
+      テレワークで実施している業務やその際に利用しているシステム、そして、テレワークで取り扱う重要情報について把握していない場合、システムを適正な利用者が利用しているのか、またデータ管理等に関する各種セキュリティ対策が十分であるかといった懸念が増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="right">◎</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="center">2-1</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>マルウェア対策</p></td>
+    <td width="227" valign="top"><p>テレワーク端末にウイルス対策ソフトをインストールし、リアルタイムスキャンが有効になる設定としている※2。またウイルス対策ソフトの定義ファイルを自動更新する設定、又は手動で最新に更新するルールを作成している。 <br>
+      ※2 Windows製品に標準で導入されているウイルス対策ソフト（Windows Defender）を利用する場合、またiOS製品で、安全であることが確認できる方法（公式アプリケーションストアの利用等）でインストールしたアプリのみを利用している場合は、インストール作業は不要 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>マルウェア感染</p></td>
+    <td width="302" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>最新化されたウイルス定義ファイルであれば駆除できていたマルウェアの駆除ができないため、テレワークで利用している端末のマルウェアに感染するリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="right">◎</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">2-2</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>マルウェア対策</p></td>
+    <td width="227" valign="top"><p>不審なメールの開封し、メールに記載されているURLをクリックしたり、添付されているファイルを開いたりしないよう注意喚起をしている。また利用しているメール製品に不審なメールを除外する機能がある場合は有効化している。（クラウドサービス（Webメール）の利用が無い場合は対象外） </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>マルウェア感染</p></td>
+    <td width="302" valign="top"><p>不審なメールに記載されているURLにアクセスすることで悪意のあるサイトに誘導され、マルウェアの感染や、重要情報にアクセスするための認証情報等が窃取されるリスクが増加する。 <br>
+      また、不審な添付ファイルを開くことでマルウェアに感染するリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>クラウドサービス（Webメール）の利用無しの場合は対象外 </p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">2-3</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>マルウェア対策</p></td>
+    <td width="227" valign="top"><p>テレワーク端末（スマートフォン等）へのアプリケーションのインストールは、安全であることが確認できる方法（公式アプリケーションストアの利用等） によるインストールに限定する。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>マルウェア感染</p></td>
+    <td width="302" valign="top"><p>公式アプリケーションストア上からアプリケーションをインストールしていない場合、正規のアプリケーションを模したマルウェアが含まれている可能性があるため、マルウェアに感染するリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">3-1</p></td>
+    <td width="49" valign="top"><p>アクセス制御・認可</p></td>
+    <td width="227" valign="top"><p>システムによるアクセス制御や重要情報そのものに対するパスワード設定等により、重要情報は許可された人のみが利用できるようにしている。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>不正アクセス </p></td>
+    <td width="302" valign="top"><p>重要情報へのアクセスを業務上必要な人のみに制限するようにしていない場合、本来アクセス権限が必要ではない人のアカウントが不正利用されたり、利用者が操作ミスをしたりすることにより重要情報が流出するリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">◎</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">3-2</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>アクセス制御・認可</p></td>
+    <td width="227" valign="top"><p>インターネット経由で社内システムにアクセスする際に、社内ネットワークとインターネットの境界に設置されているファイアウォールやルーター等において、不要なポートへの通信や必要なIPアドレス以外からの通信を遮断している。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>不正アクセス </p></td>
+    <td width="302" valign="top"><p>不要なポートや必要なIPアドレス以外からの通信が遮断されていない場合、それらを狙った悪意のある攻撃（脆弱性を突いた攻撃やアカウントのなりすまし等）により不正アクセスされるリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>オフィスネットワークに接続しない場合は対象外 </p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">3-3</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>アクセス制御・認可</p></td>
+    <td width="227" valign="top"><p>&nbsp;</p>
+      <p>オンライン会議の主催者はミーティングの開始時及び途中参加者がいる場合に、参加者の本人確認を実施している。（クラウドサービス（オンライン会議）の利用が無い場合は対象外） </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>情報の盗聴</p></td>
+    <td width="302" valign="top"><p>オンライン会議の開始時や途中参加者がいる場合に本人確認を実施しないことにより、会議に不適切な利用者が不正に参加していることに気付くことができず、情報漏えいのリスクが増加する。 <br>
+      オンライン会議においては、本人と対面しないため、参加者がシステム上に表示されている名前の本人であることをカメラによるビデオ映像や音声等の方法による確認する必要がる。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p>
+      <p>クラウドサービス（オンライン会議）利用無しの場合は対象外 </p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">3-4</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>アクセス制御・認可</p></td>
+    <td width="227" valign="top"><p>オンライン会議にアクセスするためのURLや会議参加のパスワードを必要なメンバーだけに伝えるようにしている。また会議参加のパスワード設定を強制させることが可能な場合は、パスワード設定を強制している。（クラウドサービス（オンライン会議）の利用が無い場合は対象外） </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>情報の盗聴</p></td>
+    <td width="302" valign="top"><p>オンライン会議の参加のためのURLやパスワードを、必要ない利用者に伝えることで、会議に不適切な利用者が不正に参加し、会議を通じた情報漏えいのリスクが増加する。 <br>
+      また、パスワードの設定を強制しない（できない）場合は、利用者がパスワードを未設定にしたり、容易に推測可能なパスワードを設定したりすることにより、会議への不正参加のリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p>
+      <p>クラウドサービス（オンライン会議）利用無しの場合は対象外 </p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">3-5</p></td>
+    <td width="49" valign="top"><p>アクセス制御・認可</p></td>
+    <td width="227" valign="top"><p>オンライン会議の主催者は必要に応じて不適切な参加者を退出させるなどし、会議を適切に進行している。（クラウドサービス（オンライン会議）の利用が無い場合は対象外） </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>情報の盗聴</p></td>
+    <td width="302" valign="top"><p>オンライン会議において、不適切な参加者が確認され、会議主催者による強制退出が実施できない場合、適切な業務の遂行が実施できないリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>クラウドサービス（オンライン会議）利用無しの場合は対象外 </p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">4-1</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>物理セキュリティ</p></td>
+    <td width="227" valign="top"><p>&nbsp;</p>
+      <p>テレワーク端末に対してのぞき見防止フィルタを貼付し、離席時にはスクリーンロックをかけるようルール化している。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>情報の盗聴</p></td>
+    <td width="302" valign="top"><p>テレワークの作業環境は、オフィス環境に比べて、家族を含む業務と関係ない人物が、物理的にテレワーク端末をのぞき見（ショルダーハッキング）することが比較的容易な環境であることが懸念される。のぞき見防止フィルタの貼付や、離席時のスクリーンロックの実施を行わない場合、テレワーク端末越しの情報漏えいや不正利用のリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">◎</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">5-1</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>脆弱性管理</p></td>
+    <td width="227" valign="top"><p>テレワーク端末はメーカーサポート切れとなるバージョンのOSやアプリケーションは利用していな <br>
+      い。</p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>不正アクセス </p></td>
+    <td width="302" valign="top"><p>テレワーク端末のOSやアプリケーションとしてメーカーサポート切れの製品を利用している場合、製品としてセキュリティアップデートが行わないため、製品の脆弱性に対する攻撃により不正アクセス等のリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">◎</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">5-2</p></td>
+    <td width="49" valign="top"><p>脆弱性管理</p></td>
+    <td width="227" valign="top"><p>テレワーク端末のOSやアプリケーションに対して最新のセキュリティアップデートを適用している。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>不正アクセス </p></td>
+    <td width="302" valign="top"><p>テレワーク端末のOSやアプリケーションとし最新のセキュリティアップデートを適用していない場合、製品の脆弱性に対する攻撃により不正アクセス等のリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">◎</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">5-3</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>脆弱性管理</p></td>
+    <td width="227" valign="top"><p>テレワークで利用する自宅の無線LANルーター等のネットワーク機器は、メーカーサポートが切れている製品を利用しておらず、最新のファームウェアを適用している。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>不正アクセス </p></td>
+    <td width="302" valign="top"><p>自宅に設置する無線LANルーター等のネットワーク機器につい て、メーカーサポート切れや古いファームウェアの状態で利用している場合、該当ファームウェアの脆弱性に対する攻撃による不正アクセス等のリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">5-4</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>脆弱性管理</p></td>
+    <td width="227" valign="top"><p>テレワーク端末から社内にリモートアクセスする際に利用するVPN機器等について、メーカーサポート切れの製品は利用せず、最新のセキュリティアップデートを適用している。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>不正アクセス </p></td>
+    <td width="302" valign="top"><p>テレワークを実施するために社内に設置しているVPN機器は、インターネットに常時接続され、オフィスネットワークへの入り口となる。そのため、メーカーサポート切れや古いファームウェアの状態で利用している場合、ファームウェアの脆弱性に対する攻撃による不正アクセス等のリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">◎</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">6-1</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>通信暗号化</p></td>
+    <td width="227" valign="top"><p>クラウドサービス（Webメール、チャット、オンライン会議、クラウドストレージ等）を利用する場合（特にID・パスワード等を入力するとき）は、暗号化されている（HTTPS通信である）ことと、接続先のURLが正しいことを確認している。（クラウドサービスを利用していない場合は対象外） </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>情報の盗聴</p></td>
+    <td width="302" valign="top"><p>&nbsp;</p>
+      <p>無線LANを利用したり、自宅外でテレワークを行ったりするときに、通信内容が暗号化されていない場合、悪意のある第三者による通信の傍受により情報漏えいするリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p>
+      <p>クラウドサービスを利用していない場合は対象外 </p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="center">6-2</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>通信暗号化</p></td>
+    <td width="227" valign="top"><p>&nbsp;</p>
+      <p>無線LANルーターを利用する場合は、無線LAN のセキュリティ方式として「WPA2」又は「WPA3」を利用して、無線の暗号化パスワードは第三者に推測されにくいものを利用している。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>情報の盗聴</p></td>
+    <td width="302" valign="top"><p>公衆無線LANや自宅設置の無線LANのセキュリティ方式としてWPA2やWPA3以外（WEP・WPA）を利用している場合、悪意のある第三者が通信の傍受することで、通信内容を盗み見られ、情報漏えいするリスクが増加する。 <br>
+      無線LAN使用時のセキュリティ確保（セキュリティ方式の詳細を含む。）については、総務省が公表している、「無線LAN（Wi-Fi）のセキュリティに関するガイドライン」を参考にしてください。https://<a href="http://www.soumu.go.jp/main_sosiki/cybersecurity/wi-fi/">www.soumu.go.jp/main_sosiki/cybersecurity/wi-fi/</a></p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="center">7-1</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>インシデント対応・ログ管理 </p></td>
+    <td width="227" valign="top"><p>&nbsp;</p>
+      <p>情報セキュリティインシデント発生時に備えて、インシデントが発生した場合や、そのおそれがある状況（不審なメールを開封した場合等）における対応手順を決定しており、関係者への各種連絡体制を定めている。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>マルウェア感染 <br>
+        不正アクセス盗難・紛失 情報の盗聴 </p></td>
+    <td width="302" valign="top"><p>情報セキュリティインシデント発生時の対応手順や、関係者への連絡体制が定められていない場合、セキュリティインシデントの発生自体の把握や被害拡大の早期防止等ができずに、セキュリティインシデント全般の発生時の被害が増大するリスクが増加する。 <br>
+      また、迅速な初動を行うため、インシデントが発生したとわかったときだけでなく、そのおそれがあるときから、積極的に情報連絡を行うことを周知しておく必要がある。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="right">◎</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">7-2</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>インシデント対応・ログ管理 </p></td>
+    <td width="227" valign="top"><p>&nbsp;</p>
+      <p>テレワーク端末と接続先の各システムの時刻が同期されるように設定している。 </p></td>
+    <td width="64" valign="top"><p>マルウェア感染 <br>
+      不正アクセス盗難・紛失 情報の盗聴 </p></td>
+    <td width="302" valign="top"><p>テレワーク端末と接続先の各システムの時刻がずれている場合、情報セキュリティインシデント発生時の原因調査において各種システムログを利用した原因や被害状況の特定や絞り込みの難易度が高くなり、その結果、インシデントによる被害拡大防止のための適切な対応を実施することができずにセキュリティインシデント全般の発生時の被害が増大するリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">7-3</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>インシデント対応・ログ管理 </p></td>
+    <td width="227" valign="top"><p>&nbsp;</p>
+      <p>テレワーク端末からオフィスネットワークに接続する際のアクセスログを収集している。 </p></td>
+    <td width="64" valign="top"><p>マルウェア感染 <br>
+      不正アクセス盗難・紛失 情報の盗聴 </p></td>
+    <td width="302" valign="top"><p>テレワーク端末からオフィスネットワークに接続する際のアクセスログを収集していないことで、情報セキュリティインシデント発生時の原因調査において原因や被害状況の特定や絞り込みが困難になり、その結果、インシデントによる被害拡大防止のための適切な対応を実施することができずにセキュリティインシデント全般の発生時の被害が増大するリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p>
+      <p>オフィスネットワークに接続しない場合は対象外 </p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">8-1</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>データ保護</p></td>
+    <td width="227" valign="top"><p>&nbsp;</p>
+      <p>テレワーク端末（スマートフォン等）の紛失時に端末の位置情報を検出できるようにしている。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>盗難・紛失</p></td>
+    <td width="302" valign="top"><p>テレワーク環境においては、オフィス等で業務を実施する場合に比べて、テレワーク端末の紛失や盗難のリスクが高い。テレワーク端末の位置情報を検出するためのアプリケーションを導入していない場合、紛失時の早期発見が困難となることで悪意のある第三者の取得による不正なデータアクセス等の情報漏えいのリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">◎</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p>
+      <p>スマートフォン等のみ対象 </p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="center">8-2</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>データ保護</p></td>
+    <td width="227" valign="top"><p>テレワーク端末（スマートフォン等）の紛失時にMDM※3等を導入し、リモートからのデータの消去、ログイン時の認証ポリシーやハードディスクの暗号化などのセキュリティ設定を強制的に適用している。 <br>
+      ※3 Mobile    Device Managementの略称で、スマートフォン等を一元的に管理・運用すること、又はその 機能を提供するソフトウェア </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>盗難・紛失</p></td>
+    <td width="302" valign="top"><p>&nbsp;</p>
+      <p>テレワーク環境においては、オフィス等で業務を実施する場合に比べて、テレワーク端末の紛失や盗難のリスクが高い。リモートからデータ削除を行う機能や、ログイン時の認証ポリシーやハードディスクの暗号間等を強制していない場合、紛失時に悪意のある第三者が取得することによる不正なデータアクセス等の情報漏えいのリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>スマートフォン等のみ対象 </p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="center">8-3</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>データ保護</p></td>
+    <td width="227" valign="top"><p>テレワーク端末の盗難・紛失時に情報が漏えいしないように、ハードディスクやフラッシュメモリ※4等の内蔵された記録媒体の暗号化を実施している※ <br>
+      5。（端末に会社のデータを保管しない場合は対象 <br>
+      外） <br>
+      ※4 ハードディスクとは異なる記録媒体の一つで、「不揮発性の半導体メモリ」をさす。電源をおとしてもデー タを保持することが可能な記録媒体 <br>
+      ※5 iOS製品については初期状態で暗号化されているため対応不要 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>盗難・紛失</p></td>
+    <td width="302" valign="top"><p>&nbsp;</p>
+      <p>テレワーク環境においては、オフィス等で業務を実施する場合に比べて、テレワーク端末の紛失や盗難のリスクが高い。ハードディスクの暗号化を実施していない場合、取得されたハードディスクの読み取りが可能な装置に接続することで、アカウントの認証無しにデータにアクセスされることが可能であり、保存している情報を漏えいするリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>端末に会社のデータを保管しない場合は対象外 </p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="center">8-4</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>データ保護</p></td>
+    <td width="227" valign="top"><p>テレワーク端末には原則として重要情報を保管しておらず、もし重要情報を保管しなければならない場合※6には、ファイルの暗号化（パスワード設定等）を実施している。（端末に会社のデータを保管しない場合は対象外） <br>
+      ※6 テレワーク端末にファイル保存するケースであり、ファイルサーバやクラウドサービス内に保存するケースは 対象外 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>不正アクセス盗難・紛失 </p></td>
+    <td width="302" valign="top"><p>&nbsp;</p>
+      <p>テレワーク環境においては、オフィス等で業務を実施する場合に比べて、テレワーク端末の紛失や盗難のリスクが高い。テレワーク端末に保管された重要情報に対してパスワード設定等の暗号化を実施していない場合、ハードディスクの盗難時やマルウェア等による不正アクセス時にテレワーク端末に保存されている重要情報にアクセスされた場合の情報漏えいのリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p>
+      <p>端末に会社のデータを保管しない場合は対象外 </p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="center">8-5</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>データ保護</p></td>
+    <td width="227" valign="top"><p>オンライン会議を実施する際に、会議のタイトルや議題に重要情報を記載しないことや、会議の録画ファイルに対してパスワードの設定や期間指定の自動削除等を実施している。 <br>
+      上記のルールを強制することが可能な場合は、強制するように設定する。（クラウドサービス（オンライン会議）の利用が無い場合は対象外） </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>情報の盗聴</p></td>
+    <td width="302" valign="top"><p>オンライン会議について、適切なルールを遵守しないと、公開情報 <br>
+      （会議のタイトル等）に重要情報を含めてしまう、会議中に共有する予定ではないデスクトップ画面情報等を誤操作による共有してしまう、会議の録画ファイルが不適切な第三者に参照される、等による情報漏えいのリスクが増加する。 <br>
+      また、上記のルールをシステム的に強制できない場合、利用者がルールを守らないことによる情報漏えいリスクの増加が発生する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p>
+      <p>クラウドサービス（オンライン会議）利用無しの場合は対象外 </p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">9-1</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>アカウン ト・認証管理 </p></td>
+    <td width="227" valign="top"><p>テレワーク端末のログインアカウントや、テレワークで利用する各システムのアカウントのパスワードは破られにくい「長く」「複雑な」パスワードを設定している。またパスワード強度を強制することが可 能である場合は強制するように設定している。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>不正アクセス </p></td>
+    <td width="302" valign="top"><p>従業員が利用する端末のログインアカウントや、テレワークで利用するシステムのアカウントのパスワードが破られやすい容易なパスワードに設定している場合、悪意のある第三者にパスワードが把握されやすくなり、なりすましによる不正アクセスが行われるリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">◎</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">9-2</p></td>
+    <td width="49" valign="top"><p>アカウン ト・認証管理 </p></td>
+    <td width="227" valign="top"><p>テレワーク端末へログインするためのパスワードや、テレワークで利用する各システムのアカウントの初期パスワードは変更している。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>不正アクセス </p></td>
+    <td width="302" valign="top"><p>従業員が利用する端末のログインアカウントや、テレワークで利用するシステムのアカウントの初期パスワードを変更していない場 <br>
+      合、悪意のある第三者にパスワードが把握されやすくなり、なりすましによる不正アクセスが行われるリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">◎</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">9-3</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>アカウン ト・認証管理 </p></td>
+    <td width="227" valign="top"><p>テレワーク端末やテレワークで利用する各システムのアカウントが一定回数以上パスワードを誤入力した場合、それ以上パスワード入力ができなくなるように制限している。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>不正アクセス </p></td>
+    <td width="302" valign="top"><p>テレワークで利用する端末や各システムのアカウントが一定回数以上パスワードを誤入力したときにパスワード入力がそれ以上できないように制限していない場合、悪意のある第三者によるパスワード試行が容易に実行できるためパスワードが把握されやすくなり、なりすましによる不正アクセスが行われるリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>個人所有端末については業務用途以外にも利用されるため対象外とする。 </p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">9-4</p></td>
+    <td width="49" valign="top"><p>アカウン ト・認証管理 </p></td>
+    <td width="227" valign="top"><p>&nbsp;</p>
+      <p>テレワークで利用する各システムにアクセスする際に多要素認証を求めるように設定している。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>不正アクセス </p></td>
+    <td width="302" valign="top"><p>テレワークで利用する各システムへのアクセスに対して多要素認証を設定せずにID・パスワードのみで認証を行うことで、悪意のある第三者にパスワードが流出された場合に、なりすましによる不正アクセスが行われるリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">10-1</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>特権管理</p></td>
+    <td width="227" valign="top"><p>&nbsp;</p>
+      <p>テレワーク端末やテレワークで利用する各システムにおいて、業務上必要な最小限の人に管理者権限を与えている。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>不正アクセス </p></td>
+    <td width="302" valign="top"><p>テレワークで利用する端末や各システムにおいて、業務上必要でないにも関わらず管理者権限を与えている場合、悪意のある第三者による不正アクセスにより重要情報にアクセスできる可能性が高くなり、重要情報の漏えいリスクの増加や、誤操作による情報漏えいのリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">10-2</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>特権管理</p></td>
+    <td width="227" valign="top"><p>テレワーク端末やテレワークで利用する各システムの管理者権限のパスワードには、強力なパスワードポリシーを適用している。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>不正アクセス </p></td>
+    <td width="302" valign="top"><p>テレワークで利用する端末や各システムの管理者権限のパスワードに、強力なパスワードポリシーを適用していない場合、悪意のある第三者にパスワードが把握されやすくなり、なりすましによる不正アクセスが行われるリスクが増加する。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="30" valign="top"><p>&nbsp;</p>
+      <p align="center">10-3</p></td>
+    <td width="49" valign="top"><p>&nbsp;</p>
+      <p>特権管理</p></td>
+    <td width="227" valign="top"><p>&nbsp;</p>
+      <p>テレワーク端末やテレワークで利用する各システムの管理者権限は、必要な作業時のみ利用している。 </p></td>
+    <td width="64" valign="top"><p>&nbsp;</p>
+      <p>不正アクセス </p></td>
+    <td width="302" valign="top"><p>管理者権限が必要な作業時以外に管理者権限を利用することで、管理者権限でマルウェア感染することで重要情報に直接アクセスされてしまうなど、誤操作による情報漏えいのリスクが増加する。また、管理者権限の利用情報などから不正アクセスの懸念を発見することが困難になる。 </p></td>
+    <td width="23" valign="top"><p>&nbsp;</p>
+      <p align="right">〇</p></td>
+    <td width="76" valign="top"><p>個人所有端末については業務用途以外にも利用されるため対象外とする。 </p></td>
+  </tr>
+</table>
+</body>
+</html>
